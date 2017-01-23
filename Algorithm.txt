@@ -1,0 +1,5 @@
+def binary_converter(n):
+	if not (isinstance(n, int) and n >= 0 and n <= 255):
+		return "Invalid input"
+	else :
+		return bin(n)[2:]
